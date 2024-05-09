@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color:rgb(131, 127, 127)
 }
 
 .App-logo {
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page{
+  width:var(--view-width);
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:1.5rem 12rem;
+}
+
+.main{
+  background-color: #dee9de;
+}
+.loading {  
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 5px solid #46dfa8; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin:auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

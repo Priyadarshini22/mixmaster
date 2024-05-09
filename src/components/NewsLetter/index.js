@@ -1,7 +1,7 @@
 import { Navbar } from "../../custom/Navbar";
 
 export const NewsLetter = () => {
-    return <div><Navbar/><h1>NewsLetter</h1></div>
+    return <div className="page"><h1>NewsLetter</h1></div>
 }
 
-export default NewsLetter;
+export default NewsLetter;  
