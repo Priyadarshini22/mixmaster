@@ -6,12 +6,9 @@ import { useQuery } from "@tanstack/react-query";
 const singleCocktailURL = "https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=";
 
 const searchDetails = (id) => {
-    console.log(id)
-    console.log(`${singleCocktailURL}${id}`)
     return  {queryKey : ["cocktail", id ],
         queryFn : async() => {
             const response = await axios.get(`${singleCocktailURL}${id}`)
-            console.log(response)
             return response.data.drinks;
         }
 }
@@ -42,10 +39,10 @@ export const Cocktail = () => {
     list.map((i,index) => {
         if(index!==list.length-1)
         {
-        ingredients+=singleData[i]+", "
+        return ingredients+=singleData[i]+", "
         }
         else{
-            ingredients+=singleData[i]  
+         return   ingredients+=singleData[i]  
         }
     })
     return <Wrapper>

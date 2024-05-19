@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { Router, RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import {About, Cocktail, Error, Home, Landing, NewsLetter} from './components/main.js';
 import { Loader as loaderPage } from './components/Landing/index.js';
 import {loader as singeCocktailLoader} from './components/Cocktail/index.js';

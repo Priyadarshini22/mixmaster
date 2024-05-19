@@ -1,4 +1,3 @@
-import { Navbar } from "../../custom/Navbar";
 import Wrapper from "../../styled-css/Wrapper";
 export const About = () => {
     return <Wrapper>
