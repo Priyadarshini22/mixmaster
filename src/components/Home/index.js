@@ -1,4 +1,4 @@
-import { Outlet, useNavigate, useNavigation } from "react-router";
+import { Outlet, useNavigation } from "react-router";
 import Navbar from "../../custom/Navbar";
 
 export const Home = () => {

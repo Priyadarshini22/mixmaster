@@ -1,8 +1,7 @@
 import axios from "axios";
-import { Navbar } from "../../custom/Navbar";
 import Wrapper from "../../styled-css/NewsLetterWrapper";
-import { Form, redirect, useNavigate, useNavigation } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
+import { Form, redirect, useNavigation } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const url= 'https://www.course-api.com/cocktails-newsletter';
 export const action = async({request}) => {

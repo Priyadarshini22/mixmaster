@@ -51,7 +51,7 @@ export const Cocktail = () => {
         <h3>{Name}</h3>
         </header>
         <div className='singeCocktailPage'>
-            <img src={image} alt='image' className='img'/>
+            <img src={image} alt='cocktailimage' className='img'/>
             <div class="detail">
                 <p>
                     <span className='drink'>Name : </span>

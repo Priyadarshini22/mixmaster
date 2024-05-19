@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom";
 import CoctailCardWrapper from "../styled-css/CoctailCardWrapper";
-import Wrapper from "../styled-css/Wrapper";
 
 const CocktailCard = ({items}) => {
     return <CoctailCardWrapper>
         <div className="img-container">
-        <img src={items.image} alt='image' className='img'/>
+        <img src={items.image} alt='coctailcard' className='img'/>
         </div>
         <div className="footer">
         <h4>{items.name}</h4>

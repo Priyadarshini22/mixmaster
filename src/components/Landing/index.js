@@ -1,5 +1,4 @@
-import { Outlet, useLoaderData } from "react-router";
-import { Navbar } from "../../custom/Navbar";
+import { useLoaderData } from "react-router";
 import axios from "axios";
 import CocktailList from "../../custom/CocktailList";
 import SearchForm from "../../custom/SearchForm";

@@ -1,5 +1,4 @@
 import CocktailListWrapper from "../styled-css/CocktailListWrapper"
-import Wrapper from "../styled-css/Wrapper"
 import CocktailCard from "./CocktailCard"
 
 const CocktailList = ({drinks}) => {
