@@ -1,22 +1,23 @@
 import styled from "styled-components";
 
-const CoctailCardWrapper = styled.nav`
+const CoctailCardWrapper = styled.div`
 
-        background-color:white;
-    box-shadow:var(--shadow-2);
-    transition:var(--transition);
+    background-color:white;
+    box-shadow: 10px 5px 5px #efe2e2;
+    transition:20px grey;
     display:grid;
-    grid-template-rows:auto 1fr;
-    border-radius:var(--borderRadius);}
+    grid-template-rows:auto 5fr;
+    border-radius:10px;
+
     :hover{
-        box-shadow:var(--shadow-4);
-    }
+
+        }
     
 
-    img{
+    .img{
         height:15rem;
-        border-top-left-radius:var(--borderRadius);
-        border-top-right-radius:var(--borderRadius);
+        border-top-left-radius:10px;
+        border-top-right-radius:10px;
         object-fit:cover;
         width:100%;
     }

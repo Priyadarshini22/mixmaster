@@ -46,7 +46,8 @@
 }
 
 .main{
-  background-color: #dee9de;
+  background-color: #eff5ef;
+  min-height:100vh;
 }
 .loading {  
   border: 5px solid #f3f3f3; /* Light grey */
@@ -55,6 +56,7 @@
   width: 120px;
   height: 120px;
   margin:auto;
+  margin-top: 20%;
   animation: spin 2s linear infinite;
 }
 

@@ -3,7 +3,6 @@ import CoctailCardWrapper from "../styled-css/CoctailCardWrapper";
 import Wrapper from "../styled-css/Wrapper";
 
 const CocktailCard = ({items}) => {
-console.log(items)
     return <CoctailCardWrapper>
         <div className="img-container">
         <img src={items.image} alt='image' className='img'/>
@@ -12,7 +11,7 @@ console.log(items)
         <h4>{items.name}</h4>
         <h5>{items.glass}</h5>
         <p>{items.info}</p>
-        <Link to='/cocktail' className='link'><span className='btn'>Detail</span></Link>
+        <Link to={`/cocktail/${items.id}`} className='link'><span className='btn'>Detail</span></Link>
 
         </div>
     </CoctailCardWrapper>

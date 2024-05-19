@@ -8,7 +8,7 @@ export const Home = () => {
     console.log("IS",isPageLoading)
     return <div className="main">
         <Navbar/>
-        {isPageLoading?<div className="loading"/>:<Outlet/>}
+        {isPageLoading?<div className="loading" style={{marginTop:'20%'}}/>:<Outlet/>}
     </div>
 }
 

@@ -9,6 +9,8 @@ background-color: var(--white);
     display:flex;
     flex-direction:column;
     padding:1.5rem 12rem;
+    background-color:white;
+
 
 }
 
@@ -20,7 +22,7 @@ background-color: var(--white);
 
 .btn{
     text-decoration:none;
-    color: #46dfa8;
+    color: #2fe7a5;
 }
 p{
     color:grey;
@@ -29,7 +31,7 @@ p{
 .logo{
     font-size:2rem;
     font-weight:bold;
-    color: #46dfa8;
+    color: #2fe7a5;
     letter-spacing:2px;
 
 }
